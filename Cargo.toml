@@ -45,6 +45,7 @@ lazy_static = "1.4.0"
 hashbrown = "0.14.3"
 smallvec = { version = "1.11.2", features = ["const_new", "union", "const_generics"] }
 hecs = "0.10.4"
+micro_ldtk = { version = "0.9.1", features = ["ldtk_1_5_3"], default_features = false}
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 console_error_panic_hook = "0.1.6"
